@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  margin: 0;
+}
+header {
+  background-color: #4abc96;
+}
+footer {
+  background-color: #323c45;
+  color: white;
+}
+footer ul {
+  list-style-type: none;
+}
+.login {
+  background-color: #4abc96;
+}
+.container {
+  width: 100%;
+}
+.container-fluid {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+.row {
+  display: block;
+  overflow: hidden;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9,.col-10, .col-11, .col-12 {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-12 {
+  width: 100%;
+}
+.mb-1 {
+  margin-bottom: 0.25em;
+}
+.mb-2 {
+  margin-bottom: 0.5em;
+}
+.mb-3 {
+  margin-bottom: 1em;
+}
+.mb-4 {
+  margin-bottom: 1.5em;
+}
+.mb-5 {
+  margin-bottom: 2em;
+}
+.pt-3 {
+   padding-top: 1em;
+}
+.login-form {
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 10px 6px -6px #777;
+  margin: auto;
+  margin-top: calc(25% - 131px);
+  padding-bottom: 15px;
+  overflow: hidden;
+  width: 500px;
+}
+.logo-container{
+  background-color: #fff;
+  padding-top: 15px;
+  text-align: center;
+}
+.logo-img{
+  width: 90px;
+}
+.logo-img-big{
+  width: 120px;
+}
+.form-label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form-control {
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  color: #495057;
+  display: block;
+  height: 30px;
+  padding: 6px 10px;
+  width: 100%;
+}
+.form-control:focus {
+  outline-color: #ced4da;
+}
+.btn {
+  background-color: #4abc96;
+  border: 1px solid #4abc96;
+  border-radius: 4px;
+  color: white;
+  display: inline-block;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+}
+.btn-large {
+  display: block;
+  width: 100%;
+}
+.btn:hover {
+  background-color: #45b18d;
+}
+.main-title {
+  color: white;
+  font-size: 35px;
+}
+.menu {
+  font-size: 17px;
+  padding-top: 25px;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.menu ul li a:hover {
+  background-color: #ffffff40;
+}
+.datos-generales strong{
+  color: #4abc96;
+  font-weight: 800;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.table th{
+  background-color: #4abc96;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 10px;
+}
+.table td {
+  border: 1px solid #4abc96;
+  padding: 10px 15px;
+}
+.text-center {
+  text-align: center;
+}
